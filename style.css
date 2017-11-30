@@ -1,0 +1,30 @@
+/* dark green background, cool readable font, margin to keep content away from top */
+body {
+	background-color: #0d280d;
+	font-family: Georgia;
+	margin: 1% 0 0 0;
+}
+
+/* align header */
+h1 {
+	text-align: center;
+}
+
+/* sets display of every element besides exceptions as block, white background and black border as well as set height for consistent content scaling */
+.container {
+	display: block;
+	background-color: white;
+	border: 4px solid black;
+	width: 600px;
+	height: 90%;
+	margin: auto;	
+	padding: 5px;
+	text-align: center;
+}
+
+/* image now actually works with the width: 100% property even though VSCode has told me it has no effect on an inline object. Keeping it because it just gives results */
+img {
+	display: inline;
+	width: 50%;
+	vertical-align: bottom;
+}
